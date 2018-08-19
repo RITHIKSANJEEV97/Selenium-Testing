@@ -1,0 +1,21 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+public class TestGrouping {
+  @Test(groups={"A"})
+  public void f() {
+  }
+  @Test(groups={"A"})
+  public void f1() {
+  }
+  @Test(groups={"B"})
+  public void f2() {
+  }
+  @Test(groups={"A"})
+  public void f3() {
+  }
+  @Test(groups={"B"})
+  public void f4() {
+  }
+}
