@@ -44,8 +44,8 @@ public class Locate {
 		d.findElement(By.name("firstname")).sendKeys("rithik");
 		d.findElement(By.name("lastname")).sendKeys("rithik");
 		d.findElement(By.name("reg_email__")).sendKeys("rithiksanjeev1@gmail.com");
-		d.findElement(By.name("reg_email_confirmation__")).sendKeys("rithiksanjeev1@gmail.com");
-		d.findElement(By.name("reg_passwd__")).sendKeys("rithik@1997");
+		d.findElement(By.name("reg_email_confirmation__")).sendKeys("");
+		d.findElement(By.name("reg_passwd__")).sendKeys("");
 		Thread.sleep(3000);
 		d.findElement(By.id("day")).sendKeys("2");
 		d.findElement(By.name("birthday_month")).sendKeys("Nov");
@@ -57,8 +57,8 @@ public class Locate {
 	public static void logfb() throws InterruptedException
 	{
 		invokebrowser("https://www.facebook.com");
-		d.findElement(By.name("email")).sendKeys("sajirocks1@yahoo.in");
-		d.findElement(By.name("pass")).sendKeys("rithik");
+		d.findElement(By.name("email")).sendKeys("");
+		d.findElement(By.name("pass")).sendKeys("");
 		d.findElement(By.id("loginbutton")).click();
 		Thread.sleep(10000);
 		//js=(JavascriptExecutor)d;
