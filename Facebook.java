@@ -43,8 +43,8 @@ public class Facebook {
 		try {
 			myscreen =new Screen();
 			myscreen.wait(userid,3);
-			myscreen.type(userid,"sajirocks1@yahoo.in");
-			myscreen.type(pass,"rithikvijay");
+			myscreen.type(userid,"");
+			myscreen.type(pass,"");
 			myscreen.click(login);
 			
 		} catch (FindFailed e) {
